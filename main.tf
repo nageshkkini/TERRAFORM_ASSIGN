@@ -15,7 +15,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "Nagesh_TF_ASSIGN"
+  bucket = "nagesh-tf=assign"
   acl    = "private"
 
   tags = {
